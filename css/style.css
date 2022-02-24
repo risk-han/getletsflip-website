@@ -20,6 +20,13 @@ body{
     overflow-x: hidden;
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
 ul{
     list-style: none;
 }
@@ -33,33 +40,38 @@ a{
     .navbar{
         font-family: 'Montserrat', sans-serif;
         background-color: var(--background-white);
-        height: 85px;
+        /* height: 95px; */
+        padding: 10px;
         overflow-x: hidden;
     }
 
     .navbar img{
-        position: absolute;
+        /* position: absolute; */
+        /* padding: 30px; */
         width: 70px;
         height: 70px;
-        left: 107px;
-        top: 8px;
+        /* left: 107px; */
+        /* top: 8px; */
     }
 
     .nav-group{
-        position: absolute;
-        width: 893px;
-        height: 18px;
-        left: 265px;
-        top: 34px;
+        margin-top: auto;
+        margin-bottom: auto;
+        /* padding: 30px; */
+        /* position: absolute; */
+        /* width: 893px; */
+        /* height: 18px; */
+        /* left: 265px; */
+        /* top: 34px; */
     }
 
     .navbar button{
-        position: absolute;
+        /* position: absolute; */
         width: 156px;
         height: 46px;
-        left: 1250px;
+        /* left: 1250px; */
         cursor: pointer;
-        top: 20px;
+        /* top: 20px; */
         background-color: var(--background-white);
 
         border-radius: 8px;
@@ -75,8 +87,14 @@ a{
         justify-content: space-between;
     }
 
-    .navbar a{
+    .navbar ul li{
         padding: 10px;
+    }
+
+    .navbar a{
+        margin-top: auto;
+        margin-bottom: auto;
+        /* padding: 10px; */
     }
 
     .active a{
@@ -100,7 +118,7 @@ a{
         width: 1536px;
         height: 667px;
         left: 0px;
-        top: 85px;
+        /* top: 85px; */
         background: url(img/header-background.png);
         background: linear-gradient(102.45deg, #FC5229 12.05%, #AF067D 146.01%);
     }
@@ -221,7 +239,7 @@ a{
         top: 1176.35px;
     }
 
-    .phone-left{ 
+    .phone-left{
         position: absolute;
         width: 306.31px;
         height: 652.05px;
@@ -243,7 +261,7 @@ a{
         height: 652.05px;
         left: 940px;
         top: 884.35px;
-        
+
         opacity: 0.7;
     }
 
@@ -530,7 +548,7 @@ a{
         color: #000000;
     }
 
-    
+
     .build-community p{
         position: absolute;
         width: 500px;
@@ -939,28 +957,28 @@ a{
         position: absolute;
         width: 622px;
         height: 65px;
-        
+
         font-family: Montserrat;
         font-style: normal;
         font-weight: 800;
         font-size: 70px;
         line-height: 65px;
         /* identical to box height, or 93% */
-        
+
         text-align: right;
         letter-spacing: -0.015em;
-        
-        color: #000000;        
+
+        color: #000000;
         z-index: 1;
     }
-    
+
 
     .create-mission p{
         position: absolute;
         width: 630px;
         height: 72px;
         top: 75px;
-        
+
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
@@ -968,10 +986,10 @@ a{
         line-height: 24px;
         text-align: right;
         letter-spacing: -0.015em;
-        
+
         color: #000000;
     }
-    
+
 
     .hiw-vector-3{
         position: absolute;
@@ -1375,7 +1393,7 @@ a{
         background: linear-gradient(102.45deg, #FC5229 12.05%, #AF067D 146.01%);
         z-index: -2;
     }
-    
+
     .mc-header-image{
         position: absolute;
         width: 1536px;
@@ -1430,7 +1448,7 @@ a{
         height: 1242px;
         left: -11px;
     }
-    
+
     .the-function{
         position: absolute;
         width: 1536px;
